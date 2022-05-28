@@ -25,6 +25,7 @@ export default function Home() {
               <a
                 href="https://blog.gaaamii.jp"
                 target="_blank"
+                rel="noreferrer"
                 className="underline"
               >
                 ブログ
@@ -34,6 +35,7 @@ export default function Home() {
               <a
                 href="https://twitter.com/gaaamii"
                 target="_blank"
+                rel="noreferrer"
                 className="underline"
               >
                 Twitter
@@ -43,6 +45,7 @@ export default function Home() {
               <a
                 href="https://github.com/gaaamii"
                 target="_blank"
+                rel="noreferrer"
                 className="underline"
               >
                 GitHub
@@ -52,6 +55,7 @@ export default function Home() {
               <a
                 href="https://codepen.com/gaaamii"
                 target="_blank"
+                rel="noreferrer"
                 className="underline"
               >
                 CodePen
