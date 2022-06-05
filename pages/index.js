@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="grid place-content-center h-screen">
+      <main className="grid place-content-center h-screen px-4">
         <h1 className="text-3xl font-bold">gaaamiiのウェブサイト</h1>
         <section className="mt-8">
           <h2 className="font-bold">自己紹介</h2>
