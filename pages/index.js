@@ -33,6 +33,16 @@ export default function Home() {
             </li>
             <li>
               <a
+                href="https://threads.net/ga3mi2"
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                Threads
+              </a>
+            </li>
+            <li>
+              <a
                 href="https://twitter.com/gaaamii"
                 target="_blank"
                 rel="noreferrer"
