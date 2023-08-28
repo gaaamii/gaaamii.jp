@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>gaaamiiのウェブサイト</title>
+        <title>gaaamiiのホームページ</title>
         <meta name="description" content="gaaamiiのホームページです" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
