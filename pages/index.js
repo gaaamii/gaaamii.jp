@@ -15,7 +15,7 @@ export default function Home() {
           <h2 className="font-bold">自己紹介</h2>
           <p className="mt-2">東京都在住のソフトウェア開発者です。</p>
           <p>
-            仕事や趣味でウェブアプリの画面作ったりRESTish APIを作ったりしています。
+            仕事や趣味でウェブアプリの画面を作ったりRESTish APIを作ったりしています。
           </p>
         </section>
         <section className="mt-10">
