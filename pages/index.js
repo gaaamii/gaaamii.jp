@@ -5,12 +5,12 @@ export default function Home() {
     <>
       <Head>
         <title>gaaamiiのウェブサイト</title>
-        <meta name="description" content="gaaamiiのウェブサイトです" />
+        <meta name="description" content="gaaamiiのホームページです" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className="grid place-content-center h-screen px-4">
-        <h1 className="text-3xl font-bold">gaaamiiのウェブサイト</h1>
+        <h1 className="text-3xl font-bold">gaaamiiのホームページ</h1>
         <section className="mt-8">
           <h2 className="font-bold">自己紹介</h2>
           <p className="mt-2">東京都在住のソフトウェア開発者です。</p>
