@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,13 +11,20 @@ export default function Home() {
       </Head>
 
       <main className="grid place-content-center h-screen px-4">
-        <h1 className="text-3xl font-bold">gaaamiiのホームページ</h1>
+        <h1 className="sm:text-3xl text-xl font-bold flex gap-4 items-center">
+          <Image
+            src="/profile.png"
+            alt="がーみーのプロフィール画像"
+            width="60"
+            height="60"
+            className="rounded-full"
+          />
+          gaaamiiのホームページ
+        </h1>
         <section className="mt-8">
           <h2 className="font-bold">自己紹介</h2>
           <p className="mt-2">東京都在住のソフトウェア開発者です。</p>
-          <p>
-            仕事や趣味でウェブアプリの画面を作ったりRESTish APIを作ったりしています。
-          </p>
+          <p>仕事や趣味でウェブアプリを作っています。</p>
         </section>
         <section className="mt-10">
           <h2 className="font-bold">リンク集</h2>
