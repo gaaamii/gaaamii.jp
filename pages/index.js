@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -30,44 +31,24 @@ export default function Home() {
           <h2 className="font-bold">リンク集</h2>
           <ul className="mt-2 flex gap-4">
             <li>
-              <a
-                href="https://blog.gaaamii.jp"
-                target="_blank"
-                rel="noreferrer"
-                className="underline"
-              >
+              <Link href="https://blog.gaaamii.jp" className="underline">
                 ブログ
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="https://twitter.com/gaaamii"
-                target="_blank"
-                rel="noreferrer"
-                className="underline"
-              >
-                Twitter
-              </a>
+              <Link href="https://x.com/gaaamii" className="underline">
+                X
+              </Link>
             </li>
             <li>
-              <a
-                href="https://github.com/gaaamii"
-                target="_blank"
-                rel="noreferrer"
-                className="underline"
-              >
+              <Link href="https://github.com/gaaamii" className="underline">
                 GitHub
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="https://codepen.com/gaaamii"
-                target="_blank"
-                rel="noreferrer"
-                className="underline"
-              >
+              <Link href="https://codepen.com/gaaamii" className="underline">
                 CodePen
-              </a>
+              </Link>
             </li>
           </ul>
         </section>
